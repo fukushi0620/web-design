@@ -1,3 +1,7 @@
 @charset "utf-8";
 .text-red{
     color: red;
+}
+span{
+    border: 2px dotted green;
+}
