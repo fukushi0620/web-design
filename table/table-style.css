@@ -1,4 +1,25 @@
 
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+caption {
+  caption-side: top;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+img {
+  width: 100px;
+  height: auto;
+}
 * {
     margin: 0;
     padding: 0;
