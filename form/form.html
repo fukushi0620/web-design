@@ -9,30 +9,38 @@
 <body>
     <h1>会員登録</h1><br>
     <form action="#" method="get" enctype="multipart/form-data">
-        性:<input type="text" name="last_name"><br>
-        名:<input type="text" name="first_name"><br>
-        住所:<input type="text" name="address"><br>
-        メールアドレス:<input type="rmail" name="email"><br>
-        電話番号:<input type="tel" name="tel"><br>
-        生年月日:<input type="date" name="生年月日" value="1990-01-01"><br>
-        年齢:<input type="number" name="age" name="num" min="1" max="150"><br>
-        性別<label><input type="radio" name="gender" value="man">男</label>
+        <fieldset>
+            <legend>お客様情報</legend>
+            <label for="last_name">性:</label><input type="text" name="last_name"><br>
+            <label for="first_name">名:</label><input type="text" name="first_name"><br>
+            <label for="address">住所:</label><input type="text" name="address"><br>
+            <label for="email">メールアドレス:</label><input type="rmail" name="email"><br>
+            <label for="tel">電話番号:</label><input type="tel" name="tel"><br>
+            <label for="生年月日">生年月日:</label><input type="date" name="生年月日" value="1990-01-01"><br>
+            <label for="age">年齢:</label><input type="number" name="age" name="num" min="1" max="150"><br>
+            性別:
+            <label><input type="radio" name="gender" value="man">男</label>
             <label><input type="radio" name="gender" value="woman">女</label>
-            <label></label><input type="radio" name="gender" value="other">その他</label><br><br>
+            <label><input type="radio" name="gender" value="other">その他</label><br><br>
+        </fieldset>
+            <legend>パスワード</legend>
             <h4>パスワード</h4>
             <h5>英数字8文字以上で入力してください</h5>
     パスワード:<input type="password" name="last_name"><br>
             <h4>確認のためにもう一度入力してください</h4>
     パスワード確認:<input type="password_confirm" name="last_name"><br>
-            <h3>希望メールマガジン</h3>
-    希望メールマガジン:<input type="radio" name="magazine"><br>
-            <label><input type="radio" name="magazine" value="IT">IT</label>
-            <label></label><input type="radio" name="magazine" value="営業">営業</label><br>
-            <label><input type="radio" name="magazine" value="接客">接客</label>
-            <label></label><input type="radio" name="magaziner" value="医療">医療</label><br>
-            <a href="terms.html"target="_blank">利用規約の確認</a><br>
+        </fieldset>
+        <fieldset>
+            <legend>希望メールマガジン</legend>
+    希望メールマガジン:<input type="checkbox" name="magazine"><br>
+            <label><input type="checkbox" name="magazine" value="IT">IT</label>
+            <label></label><input type="checkbox" name="magazine" value="営業">営業</label><br>
+            <label><input type="checkbox" name="checkbox" value="接客">接客</label>
+            <label></label><input type="checkbox" name="magaziner" value="医療">医療</label><br>
+            <a class="form_size "href="terms.html"target="_blank">利用規約の確認</a><br>
+        </fieldset>
 
-    利用規約:<input type="terms" name="terms" value="agree"><br>
+    利用規約に同意する:<input type="checkbox" name="terms" value="agree"><br>
             <button type="submit">送信</button>
             <button type="reset">リセット</button>
 
