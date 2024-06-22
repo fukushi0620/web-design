@@ -7,29 +7,29 @@
     <title>登録フォーム</title>
     <h1><p>必要事項を入力の上、登録ボタンを押して下さい。</p></h1>
     <form action="#" method="get" enctype="multipart/form-data">
-        <label for="email">ID<label class="hissuhenkou">(必須)</label>:(メールアドレス)</label><input type="rmail" name="email" size="30" required><br>
+        <label for="email">ID<label class="hissuhenkou" name="id">(必須)</label>:(メールアドレス)</label><input type="rmail" name="email" size="30" required><br>
         <br>
         <label>
-        パスワード<label class="hissuhenkou">(必須)</label>:(半角英数字8文字以上)<input type="password" name="last_name"size="30" required>パスワードの確認<input type="checkbox" size="8" required><br>
+        パスワード<label class="hissuhenkou" name="pass">(必須)</label>:(半角英数字8文字以上)<input type="password" name="last_name"size="30" required>パスワードの確認<input type="checkbox" size="8" required><br>
         <label>
         <br>
-        氏名<label class="hissuhenkou">(必須)</label>　姓:<input type="text" placeholder="盛岡" required> 名:<input type="text" placeholder="太郎 " required>
+        氏名<label class="hissuhenkou" name="name">(必須)</label>　姓:<input type="text" placeholder="盛岡" required name="name"> 名:<input type="text" placeholder="太郎 " required>
         <br>
         <br>
         <fieldset>
         <legend>住所入力</legend>
-        住所 　　〒<input type="text" size="8" readonly value="020-0021">
+        住所 〒<input type="text" size="8" readonly value="020-0021" name="address">
         <br>
-        　　　　　<input type="text" name="readonly" size="30" value="岩手県盛岡市中央通り3丁目" readonly><br>
+        <input type="text" name="readonly" size="30" name="address2" value="岩手県盛岡市中央通り3丁目" readonly><br>
         <br>
-        　　　　　<input type="text" size="30" value="番地">
+        <input type="text" size="30" name = "address3"value="番地">
         <br>
         <br>
-        　　　　　<input type="text" size="30" value="建物名">
+        <input type="text" size="30" value="建物名" name="address4">
         </fieldset>
         <br>
         <br>
-        携帯電話番号<label class="hissuhenkou">(必須)</label>:<input type="tel" size="30" ><br>
+        携帯電話番号<label class="hissuhenkou">(必須)</label>:<input type="tel" size="30" name="phonenumber" ><br>
         <br>
         学科 ・ 学年<label class="hissuhenkou">(必須)</label> 
         学科

@@ -2,42 +2,42 @@
 <html lang="en">
 <link rel="stylesheet" href="form-style.css"> 
 <head>
+    <link rel="stylesheet" href="form-style.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>以下の情報を入力し、確認ボタンを押してください。</title>
 </head>
 <body>
-    <h1>会員登録u</h1><br>
-    <form action="#" method="get" enctype="multipart/form-data">
+    <h1>会員登録</h1><br>
+    <form action="#" method="post" enctype="multipart/form-data">
         <fieldset>
             <legend>お客様情報</legend>
             <label for="last_name">性:</label><input type="text" name="last_name"><br>
             <label for="first_name">名:</label><input type="text" name="first_name"><br>
             <label for="address">住所:</label><input type="text" name="address"><br>
-            <label for="email">メールアドレス:</label><input type="rmail" name="email"><br>
+            <label for="email">メールアドレス:</label><input type="email" name="email"><br>
             <label for="tel">電話番号:</label><input type="tel" name="tel"><br>
             <label for="生年月日">生年月日:</label><input type="date" name="生年月日" value="1990-01-01"><br>
-            <label for="age">年齢:</label><input type="number" name="age" name="num" min="1" max="150"><br>
+            <label for="age">年齢:</label><input type="number" name="age" min="0" max="150"><br>
             性別:
-            <label><input type="radio" name="gender" value="man"> 男</label>
-            <label><input type="radio" name="gender" value="woman">  女</label>
-            <label><input type="radio" name="gender" value="other"> その他</label><br><br>
+            <label><input type="radio" name="gender" value="0"> 男</label>
+            <label><input type="radio" name="gender" value="1">女</label>
+            <label><input type="radio" name="gender" value="2">その他</label><br><br>
         </fieldset><br>
         <fieldset>
             <legend>パスワード</legend>
             <h4>パスワード</h4>
             <h5>英数字8文字以上で入力してください</h5>
-    パスワード:<input type="password" name="last_name"><br>
+    パスワード:<input type="password" name="password"><br>
             <h4>確認のためにもう一度入力してください</h4>
-    パスワード確認:<input type="password_confirm" name="last_name"><br>
+    パスワード確認:<input type="password" name="password_confirm"><br>
         </fieldset><br>
         <fieldset>
             <legend>希望メールマガジン</legend>
-    希望メールマガジン:<input type="checkbox" name="magazine"><br>
-            <label><input type="checkbox" name="magazine" value="IT">IT</label>
-            <label></label><input type="checkbox" name="magazine" value="営業">営業</label><br>
-            <label><input type="checkbox" name="checkbox" value="接客">接客</label>
-            <label></label><input type="checkbox" name="magaziner" value="医療">医療</label><br>
+            <label><input type="checkbox" name="magazine" value="1">IT</label>
+            <label></label><input type="checkbox" name="magazine" value="2">営業</label><br>
+            <label><input type="checkbox" name="magazine" value="3">接客</label>
+            <label></label><input type="checkbox" name="magazine" value="4">医療</label><br>
             
         </fieldset><br>
             <a class="form_size "href="terms.html"target="_blank">利用規約の確認</a><br>
