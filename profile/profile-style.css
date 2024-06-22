@@ -1,7 +1,33 @@
-@charset "utf-8";
-.text-red{
-    color: red;
+/* プロフィールの課題 */
+h1 {
+    font-size: 32px;
+    font-style: italic;
+    color: #8b4513; 
+    margin-bottom: 20px;
 }
-span{
-    border: 2px dotted green;
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* 画像のスタイル */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+    background-color: #f7f3e9;
+    margin: 20px;
+    padding: 20px;
 }
