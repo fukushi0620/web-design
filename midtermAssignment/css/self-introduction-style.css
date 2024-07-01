@@ -1,0 +1,31 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+body{
+    background-color: bla;
+}
+.mark-list {
+    list-style: "★";
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: limegreen;
+}
+
+
+
+
+
+
+
+.img {
+    display: flex;
+    justify-content: space-around;
+}

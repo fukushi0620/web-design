@@ -1,0 +1,10 @@
+body {
+    background-color: limegreen;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+.mark-list {
+    list-style: "★";
+}

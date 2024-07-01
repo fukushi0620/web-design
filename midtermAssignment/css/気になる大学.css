@@ -1,0 +1,16 @@
+img {
+    width: 30rem;
+    
+    display: inline-block;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.mark-list {
+    list-style: "・";
+}
+body{
+    background-color: limegreen;
+}
