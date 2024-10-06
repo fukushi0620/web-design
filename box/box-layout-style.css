@@ -1,0 +1,48 @@
+@charset "utf-8";
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align:center;
+}
+
+h2{
+    margin: auto;
+    width: 90%;
+    
+
+}
+
+
+
+
+
+p{
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+}
+img{
+    width: 200px;
+    margin: auto;
+    height: 200px;
+    
+}
+
+div{
+    
+    text-align: center;
+    margin: auto
+}
+
+a{
+    border-radius: 20px;
+    width: 150px;
+    display: block;
+    background-color: purple;
+    margin: auto;
+    text-decoration:none;
+    
+}
