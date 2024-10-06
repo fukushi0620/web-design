@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    background-image: url('img/マイクラ背景2.jpg'); /* ここに背景画像のパスを指定 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(34, 139, 34, 0.9); /* Minecraftの草ブロックをイメージした色 */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(51, 51, 51, 0.9); /* 背景色を半透明に変更 */
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(17, 17, 17, 0.9); /* 背景色を半透明に変更 */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* 背景色を半透明に変更 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.9); /* 背景色を半透明に変更 */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(34, 139, 34, 0.9); /* Minecraftの草ブロックをイメージした色 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#scrollTopBtn:hover {
+    background-color: rgba(28, 120, 28, 0.9); /* 背景色を半透明に変更 */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgba(34, 139, 34, 0.9); /* Minecraftの草ブロックをイメージした色 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: rgba(28, 120, 28, 0.9); /* 背景色を半透明に変更 */
+}
+/* 最終課題.css */
+
+/* ナビゲーションメニューのリンクにホバー効果を追加 */
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* ホバー時に色を変更 */
+}
+
+/* ギャラリーの画像にホバー効果を追加 */
+.image-container img {
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* ホバー時に拡大 */
+}
+
+/* トップへ戻るボタンのスタイル */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+    background-color: #ff4500; /* ホバー時に色を変更 */
+}
