@@ -46,8 +46,17 @@ main {
     margin: 0 auto;
 }
 
-section {
-    margin-bottom: 20px;
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section, aside {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 48%;
 }
 
 footer {
@@ -78,22 +87,4 @@ footer {
 #scrollTopBtn:hover {
     background-color: #45a049;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.image-container img {
-    width: 30%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.image-container img:hover {
-    transform: scale(1.05);
 }
